@@ -1,0 +1,28 @@
+// Texto center
+.texto-div {
+    display: flex;
+    align-items: center; /* Centralizar verticalmente */
+    justify-content: center; /* Centralizar horizontalmente */
+    height: 100vh; /* Define a altura da div como 100% da altura da viewport */
+    margin-left: 20px;
+}
+
+.texto-h1 {
+    font-family: 'VT323', monospace;
+    font-size: 60px;
+    text-align: center; /* Centralizar o texto horizontalmente */
+    color: rgb(231, 236, 231);
+    margin: 0;
+    cursor: pointer;
+    text-shadow: 2px 2px 1px #ee5959;
+    @media(max-width: $breakpoint-sm) {
+    }
+    @media(max-width: $breakpoint-md) {
+    }
+    @media(min-width: $breakpoint-lg) {
+        font-size: 80px;
+    }
+    @media(max-width: $breakpoint-xl) {
+    }
+}
+

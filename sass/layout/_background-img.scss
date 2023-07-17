@@ -1,0 +1,15 @@
+.background-img {
+    background-color: black;
+    background-size: cover;
+    background-attachment: fixed;
+    background-image: url('../img/black-desktop.jpg');
+    @media(max-width: $breakpoint-sm) {
+        background-image: url('../img/black-small.jpg');
+    }
+    @media(min-width: $breakpoint-sm) and (max-width: 920px){
+        background-image: url('../img/black-medium.jpg');
+    }
+    @media(min-width: 921px) {
+        background-image: url('../img/black-desktop.jpg');
+    }
+}

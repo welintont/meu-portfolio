@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./fonts/fontawesome-free-6.4.0-web/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+</head>
+<body class="background-img">
+    <header>
+        <div class="texto-div container">
+            <h1 class="texto-h1" onclick="mostrarMenu()">Press start <br><i class="fa-solid fa-dice-d6 fa-spin"></i></h1>
+        </div>
+    </header>
+    <main class="div-mae">
+        <div id="menu" class="menu-principal">
+            <div class="centraliza-nome">
+                <div>
+                    <img class="foto-perfil" src="./img/eu.jpg" alt="Foto de perfil do usuário">
+                </div>
+                <div class="div-nome-icone">
+                    <span class="span-nome">Welinton Almeida</span>
+                    <span><img class="span-icone" src="./img/verificado (4).png" alt="Ìcone verificado azul"></span>
+                </div>
+            </div>
+            <ul class="menu-principal__lista">
+                <a class="menu-principal__links" href="https://www.instagram.com/welintont/?hl=pt-br" target="_blank" rel="noopener nofollow"><i class="fa-brands fa-square-instagram"></i></a>
+                <a class="menu-principal__links" href="https://twitter.com/berzerkis" target="_blank" rel="noopener nofollow"><i class="fa-brands fa-twitter"></i></a>
+                <a class="menu-principal__links" href="https://github.com/welintont" target="_blank" rel="noopener nofollow"><i class="fa-brands fa-square-github"></i></a>
+                <a class="menu-principal__links" href="https://www.linkedin.com/in/welintont/" target="_blank" rel="noopener nofollow"><i class="fa-brands fa-linkedin"></i></a>
+                <a class="menu-principal__links" href="mailto:welintontslv@hotmail.com" target="_blank" rel="noopener nofollow"><i class="fa-solid fa-envelope"></i></a>
+                <a class="menu-principal__links" href="https://api.whatsapp.com/send?phone=5547991574015" rel="noopener nofollow"><i class="fa-brands fa-square-whatsapp"></i></a>
+                <a class="menu-principal__links" href="#certificados" rel="noopener nofollow" onclick="mostrarDivCertificados()"><i class="fa-solid fa-medal"></i></a>
+            </ul>
+        </div>
+        <div class="certificados__grupo" id="certificados">
+            <div class="certificados__item">
+                <img src="./img/certificados/Certificado BD.png" alt="">
+            </div>
+            <div class="certificados__item">
+                <img src="./img/certificados/Certificado FrontEnd.png" alt="">
+            </div>
+        </div>
+    </main>
+    <footer>
+    </footer>
+    <script src="./js/script.js"></script>
+</body>
+</html>
